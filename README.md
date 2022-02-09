@@ -1,6 +1,6 @@
 # Project-3
-Using python to take the HTTP server logs from the webserver and provide some analytics to Marketing.
-For this project, you will be working as a team, but will be graded individually. So each team member will be responsible to turn in a separate solution, or the whole team can collaborate in a single GitHub repo, and I will expect to see a log of individual contributions (commits from each team member).
+*Using python to take the HTTP server logs from the webserver and provide some analytics to Marketing.
+For this project, you will be working as a team, but will be graded individually. So each team member will be responsible to turn in a separate solution, or the whole team can collaborate in a single GitHub repo, and I will expect to see a log of individual contributions (commits from each team member).*
 
 The goal of this project is to familiarize yourself with Python syntax, and some basic tasks that are common in systems programming and administration. The program will be invoked from the command line on a fresh Linux machine, so if you introduce any library dependencies beyond the Python Standard Library (not recommended), you must provide very clear instructions to recreate your environment. I would suggest using Vagrant (Links to an external site.) or a GCP (Links to an external site.) VM to develop in Linux if you are on a Windows machine. Another option is to install the Windows Subsystem for Linux (Links to an external site.) and setup a Python environment (Links to an external site.). It is your responsibility to ensure the program runs as expected in the operational environment described.
 
