@@ -21,28 +21,28 @@ while done_variable == 0:
             lines = http_info.readlines()
         for i in lines:
             if i.find('Oct/1995') != -1:
-                total_requests = ++1
-                total_request_period = ++1
+                total_requests += 1
+                total_request_period += 1
             elif i.find('Sep/1995') != -1:
-                total_requests = ++1
-                total_request_period = ++1
+                total_requests += 1
+                total_request_period += 1
             elif i.find ('Aug/1995') != -1:
-                total_requests = ++1
-                total_request_period = ++1
+                total_requests += 1
+                total_request_period += 1
             elif i.find ('Jul/1995') != -1:
-                total_requests = ++1
-                total_request_period = ++1
+                total_requests += 1
+                total_request_period += 1
             elif i.find ('Jun/1995') != -1:
-                total_requests = ++1
-                total_request_period = ++1
+                total_requests += 1
+                total_request_period += 1
             elif i.find ('May/1995') != -1:
-                total_requests = ++1
-                total_request_period = ++1
+                total_requests += 1
+                total_request_period += 1
             elif i.find ('11/Apr/1995') != -1:
-                total_requests = ++1
-                total_request_period = ++1
+                total_requests += 1
+                total_request_period += 1
             else:
-                total_requests = ++1
+                total_requests += 1
         done_variable = 1
     else:
         local_copy = 'http_access_log.txt'
